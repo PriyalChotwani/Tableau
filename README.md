@@ -31,18 +31,23 @@ Following are the questions that will be answered using GBI dataset:
 
 ##### Question 1: Create a dashboard using World Bank CO2 to show CO2 emissions by Countries since 1960 via Geo Graph and Line Graph.
 The following figure represents a dashboard where 2 types of graphs are shown i.e., Geo Graph and Line Graph. For the Geo Graph, Longitude is dropped into columns, Latitude into rows, Country Name into detail, CO2 per Capita into size and color after selecting the measure to be average. As it is visible from the graph, Qatar has the highest average CO2 per capita i.e., 54.42. Also, this graph helps in identifying the average CO2 per capita of any country just by hovering over the graph. Line graph points towards the trends of CO2 emission of each country from 1960 to 2012. Qatar seems to be the country which has highest CO2 emissions over the years. Few countries like Kuwait, UAE and others had a higher CO2 emission in the beginning, but it got declined as the years passed.
+![Alt text](Images/TableauQ1)
 
 ##### Question 2: Compare average revenue (in USD) and average gross margin for US and Germany for all the years.
 Following Figure depicts a line graph where x-axis is year and y-axis represent the values where orange line shows Average Revenue (USD) and blue line shows Average Gross Margin (USD). Gross Margin is a calculated field which has been created by using the formula: Revenue (USD) – Discount (USD) – Costs (USD). Both the lines are coherent to each other and follow similar trend as both the fields are directly related to each other (higher the revenue, higher the gross margin). It is notable that overall Germany has higher revenue than US and both the countries have followed a non-consistent upward trend.
+![Alt text](Images/TableauQ2)
 
 ##### Question 3: Compare the Gross Margin Ratio of each division for all the years.
 Figure shows a column chart where y-axis represent Gross Margin Ratio, x-axis represent year and color represent the divisions. Blue color represents AS while orange represents BI. Gross Margin Ratio is a calculated field which has the formula: Gross Margin USD/ (Revenue USD – Discount USD). The graph suggests that AS has higher gross margin in comparison to BI in all the years. 2008 has the highest GMR for BI, while 2016 has the highest for AS. Altogether, both the divisions show a similar trend with only slight differences.
+![Alt text](Images/TableauQ3)
 
 ##### Question 4: Which city of Germany has highest Sales Quantity?
 Figure shows a Geo Graph where color represents the sum of Sales Quantity in all the cities of Germany. According to the following visualization, München has highest Sales Quantity i.e. 66,955 while the lowest is for Anklam i.e. 13,496.
+![Alt text](Images/TableauQ4)
 
 ##### Question 5: Create a dashboard to compare top 5 Products in terms of Sales Quantity during 2016 and their Gross Margin and top 5 Products in terms of Gross Margin during 2016 and their Sales Quantity. Are the Products same for both the graphs?
 The following dashboard represents to column charts where x-axis is Products and y-axis shows the values for both Sales Quantity (represented by orange color) and Gross Margin (represented by purple color) respectively. Top 5 products with highest Sales Quantity are: Air Pump, Road Bike Alu Shimano, Water Bottle Cage, Men's Off Road Bike Hard Tail SRAM, and Men's Off-Road Bike Fully. Whereas top 5 products with highest Gross Margin are: Professional Touring Bike-Silver, Deluxe Touring Bike-Silver, Road Bike Carbon Shimano, Men's Off-Road Bike Fully, and Men's Off Road Bike Hard Tail SRAM. This suggests that there is no correlation between sales quantity and gross margin, therefore the products that have high sales quantity may or may not have high gross margin and vice versa.
+![Alt text](Images/TableauQ5)
 
 ## Analysis and Critique of the Tool
 
